@@ -3,7 +3,7 @@ import Stripe from 'stripe'
 
 // Initialize Stripe (server-side)
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2023-10-16',
+  apiVersion: '2025-07-30.basil',
 })
 
 // Product and Price IDs (created in Stripe Dashboard)
